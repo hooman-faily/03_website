@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    pad: 0;
+}
+nav{
+    background-color: #E6E6E6;
+}
+ul.navList{
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+.navList li{
+    display: inline-block;
+}
+.navList li a{
+    display: inline-block;
+    padding: 10px 22px;
+    text-decoration: none;
+    background-color: #4D4D4D;
+    color: white;
+}
+.leftSide{
+    border: 1px solid black;
+    display: inline-block;
+    width: 29%;
+    min-height: 800px;
+}
+.mainSide{
+    border: 1px solid black;
+    display: inline-block;
+    width: 70%;
+    min-height: 800px;
+}
+.leftSide{
+    float: left;
+}
+.mainSide{
+    float: right;
+}
+.profile{
+    text-align: center;
+    padding: 20px;
+}
+.avatar{
+    width: 100%;
+}
+.title{
+    font-size: 22px;
+}
+.profileInfo{
+    padding: 20px;
+}
+.about{
+    padding: 20px;
+}
+.fLeft{
+    float: left;
+    width: 30%;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.galleryItem{
+    width: 30%;
+}
